@@ -3,7 +3,7 @@ package model.entities;
 import java.io.Serializable;
 import java.util.Objects;
 
-public class Department implements Serializable{
+public class Department implements Serializable{ // Serializable serve para os objetos serem transformados em sequência de bits, para serem gravados em arquivos e trafegado em rede.
 
 	private static final long serialVersionUID = 1L;
 	private Integer id;
